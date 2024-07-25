@@ -28,7 +28,7 @@ function App() {
       {({ signOut }) => (  
     <main>
       <h1>Alaska</h1>
-      <button onClick={createTodo}>+ new</button>
+      <button onClick={createTodo}>+ new Item Seward</button>
       <ul>
         {todos.map((todo) => <li 
           onClick={() => deleteTodo(todo.id)}
