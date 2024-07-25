@@ -29,7 +29,7 @@ function App() {
     <main>
       <h1>{user?.signInDetails?.loginId}'s Alaska</h1>
       <h1>Alaska</h1>
-      <button onClick={createTodo}>+ new Item Seward</button>
+      <button onClick={createTodo}>+ Input </button>
       <ul>
         {todos.map((todo) => <li 
           onClick={() => deleteTodo(todo.id)}
