@@ -27,7 +27,7 @@ function App() {
     <Authenticator>
       {({ signOut }) => (  
     <main>
-      <h1>Alaska</h1>
+      <h1>Product Owner</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => <li 
